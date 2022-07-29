@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+hr{
+    margin: 2rem;
+}
+.container{
+    margin: 5% 35%;
+    text-align: center;
+}
+.M, .g{
+    color: rgb(0, 157, 255);
+}
+.o , .e{
+    color: red;
+}
+.O{
+    color: rgb(27, 218, 74);
+}
+
+.l{
+    color: rgb(235, 226, 60);
+}
+h1{
+    padding: 10%;
+    font-size: 450%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+    margin: 0 -4.3%;
+}
+
+.search{
+    border: 1px solid rgb(239, 226, 226);
+    width: 140%;
+    height: 3rem;
+    border-radius: 2rem;
+    box-shadow: 1px 0px 3px 1px rgba(175, 169, 169, 0.431);
+    position: relative;
+    right: 15%;
+    display: flex;
+    
+    
+}
+.search input{
+    border: none;
+    margin: 2px 40px ;
+    width: 80%;
+    height: 90%;
+    font-size: 16px;
+    text-align: center;
+}
+.search input:focus{
+    outline: none !important;
+}
+.icon{
+    color: rgb(0, 157, 255);
+    font-size: 1.2rem;
+    margin: 0.8rem 2rem;
+}
+ .one{
+    
+}
+p{
+    margin: 5%;
+}
+ul{
+    display: flex;
+    margin: 5%;
+}
+li{
+    list-style-type: none;
+    margin: 5%;
+
+}
+
+@media (max-width: 1100px) {
+    h1{
+        padding-left: 0;
+        font-size: 400%;
+        
+    }
+}
+@media (max-width: 800px) {
+    h1{
+        padding-left: 0;
+        font-size: 350%;
+        
+    }
+}
+@media (max-width: 600px) {
+    h1{
+        padding-left: 0;
+        font-size: 300%;
+    }
+}
+
